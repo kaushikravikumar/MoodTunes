@@ -4,7 +4,7 @@ export default (request, response) => {
 
     var speech_input = JSON.parse(request.body).queryResult.queryText; // User's speech input
 
-    const amazon_url = "https://pubsub.pubnub.com/v1/blocks/sub-key/sub-c-1f19060e-6a91-11e8-9683-aecdde7ceb31/amazoncomprehend"; // url to amazon comprehend function
+    const amazon_url = "ENTER URL TO AMAZON COMPREHEND FUNCTION";
 
     // Object with amazon comprehend function request parameters
     const amazon_request_options = {
