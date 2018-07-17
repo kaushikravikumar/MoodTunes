@@ -2,8 +2,10 @@
 
 MoodTunes is a demo Google Home App that integrates PubNub functions into Google's Dialogflow API in order to perform functions on user speech input. MoodTunes will analyze a user's sentiment based off their one sentence response to the question "What's Up." Then it will play the right song according to their mood.
 
+[Click here for full tutorial](https://www.pubnub.com/blog/google-home-dialogflow-app-using-pubnub-functions/)
 
-**Quickstart**
+
+# Quickstart
 
 1. Sign Up for PubNub and create a new Project
 2. Sign Up for Dialogflow and create a new Agent and a Intent named Get_Emotion.
